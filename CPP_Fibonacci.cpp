@@ -13,10 +13,10 @@ int fibo(int n) {
 int main() {
     int n;
 
-    std::cout << "Nhap vao so N: ";
-    std::cin >> n;
+    cout << "Nhap vao so N: ";
+    cin >> n;
 
-    std::cout << "Day Fibonacci thu " << n << " la: " << fibo(n) << std::endl;
+    cout << "Day Fibonacci thu " << n << " la: " << fibo(n) << endl;
 
     return 0;
 }
